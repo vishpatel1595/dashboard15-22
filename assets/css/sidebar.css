@@ -1,0 +1,59 @@
+.sidebar{
+    /* border: 1px solid; */
+    flex: 0 0 200px;
+    max-width: 200px;
+    height: 100%;
+    background-color: #f1d9d96e;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.brand-name {
+    text-align: start;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left:15px;
+}
+.nav-wrapper {
+    overflow-x: scroll;
+    height: calc(100% - 0.59em);
+}
+.aside-nav{
+margin: 0;
+padding: 0;
+}
+.list-item {
+
+}
+.list-link {
+   display:block;
+     padding: 10px 12px; 
+     font-size: 16px;
+     font-weight: 500;
+     color: black;
+}
+.list-icon {
+    margin-right: 15px;
+}
+
+.aside-checklist {
+    padding: 10px 12px;
+ 
+}
+.aside-checklist .list-item {
+    padding: 10px 0;
+    color: rgb(128, 3, 3);
+}
+.income-source-wrapper .list-item {
+color:green;
+}
+
+.aside.checkbox {
+    color: blue;
+}
+.aside-checklabel {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}

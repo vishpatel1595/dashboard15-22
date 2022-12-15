@@ -1,0 +1,61 @@
+.main {
+    background: #00000000;
+    flex: auto;
+}
+.main-header {
+padding:10px;
+display: flex;
+}
+.search-wrapper {
+    width: 100%;
+    position: relative;
+}
+.header-search {
+    height: 30px;
+    width: 80%;
+    padding-left: 30px;
+}
+
+.tools-wrapper {
+    display: flex;
+}
+.btn-icon {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn {
+padding: 7px;
+}
+.header-search-btn {
+position: absolute;
+left: 0px;
+background: none;
+border: none;
+}
+.header-links-wrapper {
+display: flex;
+} 
+.header-links {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.userprofile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userprofile-title {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.user-profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
